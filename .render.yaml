@@ -3,4 +3,4 @@ services:
     name: nse-scraper-api
     env: python
     buildCommand: ""
-    startCommand: "gunicorn app:app"
+    startCommand: gunicorn app:app
